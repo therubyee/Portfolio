@@ -1,4 +1,4 @@
-var cliqueAqui = document.querySelector(".btn");
+var cliqueAqui = document.querySelector("#linkedin");
 cliqueAqui.addEventListener('click', LinkedIn);
 
 function LinkedIn(){
