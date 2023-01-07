@@ -1,22 +1,22 @@
 h1{
     font-size: 72px;
     font-weight: lighter;
-    color: #001858;
+    color: #fffffe;
 
 }
 
 h2{
-    color: #001858;
+    color: #fffffe;
     white-space: nowrap;
 }
 
-p{
+/*p{
     font-size: large;
     color: #172c66;
-}
+}*/
 
 body{
-    background-color: #fef6e4;
+    background-color: #16161a;
 }
 
 .conteudo{
@@ -39,7 +39,7 @@ body{
 }
 
 .btnPrincipal{
-    color: #001858;
+    color: #7f5af0;
     text-transform: uppercase;
 }
 
@@ -52,7 +52,7 @@ body{
   }
 
 .btnPrincipal::after, .btnPrincipal::before{
-    border: solid #f582ae;
+    border: solid #7f5af0;
     content: "";
     position: absolute;
     width: calc(100% - 6px);
@@ -75,7 +75,7 @@ body{
 
 #botao:hover{
     box-shadow: 5px 6px 10px rgb(37, 37, 37);
-    color: black;
+    color: #7f5af0;
     transform: translateY(-2px);
 }
 
