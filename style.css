@@ -1,32 +1,34 @@
-h1{
+html{
+    scroll-behavior: smooth;
+}
+
+
+.conteudo h1{
     font-size: 72px;
     font-weight: lighter;
-    color: #fffffe;
+    color: #706C61;
+    margin-bottom: 50px;
 
 }
 
-h2{
-    color: #fffffe;
-    white-space: nowrap;
+.conteudo h2{
+    font-size: 26px;
+    color: #706C61;
+    margin-bottom: 50px;
+    
 }
-
-/*p{
-    font-size: large;
-    color: #172c66;
-}*/
 
 body{
-    background-color: #16161a;
+    background-color: #FCFFE7;
 }
 
 .conteudo{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    display: block;
+    justify-content: center;
     align-items: center;
-    margin: auto;
-    max-width: 500px;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 12.5rem;
 }
 
 
@@ -39,7 +41,7 @@ body{
 }
 
 .btnPrincipal{
-    color: #7f5af0;
+    color: #706C61;
     text-transform: uppercase;
 }
 
@@ -48,11 +50,11 @@ body{
     padding: 20px 50px;
     font-size: 1.25rem;
     position: relative;
-    margin: 32px;
+    margin: 0px 32px 32px 32px;
   }
 
 .btnPrincipal::after, .btnPrincipal::before{
-    border: solid #7f5af0;
+    border: solid #706C61;
     content: "";
     position: absolute;
     width: calc(100% - 6px);
@@ -75,9 +77,84 @@ body{
 
 #botao:hover{
     box-shadow: 5px 6px 10px rgb(37, 37, 37);
-    color: #7f5af0;
+    color: #706C61;
     transform: translateY(-2px);
 }
+
+
+.seta{
+    cursor: pointer;
+    margin-top: 5.2083333333333vw;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid #706C61;
+    border-right: 2px solid #706C61;
+    transform: rotate(135deg);
+}
+
+#sobre{
+    margin: 5% 25% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-wrap: break-word;
+    color: #706C61;
+    
+}
+
+#sobre h2{
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    #sobre p {
+      transform: translate(-50% -50%);
+      font-size: normal;
+    }
+  }
+
+.habilidades{
+    display: flex;
+    margin: 20em;
+    border: 3px solid #706C61;
+    padding: 20px;
+    align-content: center;
+    color: #706C61;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#one, #two, #three{
+
+    position: sticky;
+    border: 3px solid #706C61;
+    padding: 20px;
+    float: left;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    
+    
+}
+
+
+.footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #FCFFE7;
+    text-align: center;
+    color: #706C61;
+    
+}
+
+.footer p {
+    font-size: 12px;
+    margin: 0;
+  }
 
 
 
